@@ -5,7 +5,7 @@ namespace NLayer.Core
 	{
 		public int Id { get; set; }
 
-		public string? Color { get; set; }
+		public string Color { get; set; }
 
 		public int Height { get; set; }
 
@@ -13,7 +13,7 @@ namespace NLayer.Core
 
 		public int ProductId { get; set; }
 
-		public Product? Product { get; set; }
+		public Product Product { get; set; }
 	}
 }
 
