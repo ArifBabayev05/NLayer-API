@@ -33,6 +33,15 @@ namespace NLayer.Repository.Seeds
                     Stock = 10,
                     CreatedDate = DateTime.Now,
                     Name = "Book 3"
+                },
+                new Product
+                {
+                    Id = 4,
+                    CategoryId = 2,
+                    Price = 4100,
+                    Stock = 5,
+                    CreatedDate = DateTime.Now,
+                    Name = "Special pen"
                 }
                 );
         }

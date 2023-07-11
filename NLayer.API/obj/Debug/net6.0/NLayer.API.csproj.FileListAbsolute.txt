@@ -36,3 +36,8 @@
 /Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.API/bin/Debug/net6.0/NLayer.Repository.dll
 /Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.API/bin/Debug/net6.0/NLayer.Core.pdb
 /Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.API/bin/Debug/net6.0/NLayer.Repository.pdb
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.API/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.API/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.API/bin/Debug/net6.0/System.Diagnostics.DiagnosticSource.dll
