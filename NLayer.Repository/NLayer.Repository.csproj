@@ -18,8 +18,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Configuration\" />
+    <None Remove="Seeds\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Configuration\" />
+    <Folder Include="Seeds\" />
   </ItemGroup>
 </Project>
