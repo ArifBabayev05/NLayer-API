@@ -5,7 +5,11 @@ namespace NLayer.Core.Repositories
 {
 	public interface IGenericRepository<T> where T : class
 	{
-		Task<T> GetByIdAsync(int id);
+
+        IQueryable<T> GetAll(Expression<Func<T, bool>> expression);
+
+
+        Task<T> GetByIdAsync(int id);
 
 		//productRepo.where(x=>x.Id>5).OrderBy()...
 		// Provides using another filters on method. 	
@@ -14,9 +18,16 @@ namespace NLayer.Core.Repositories
 		// Check if there is exist or not
 		Task<bool> AnyAsync(Expression<Func<T, bool>> expression);
 
-        Task<T> AddAsync();
+        Task AddAsync(T entity);
 
-		void UpdateAsync(int id);
-	}
+		Task AddRangeAsync(IEnumerable<T> entities);
+
+		void Update(T entity);
+
+        void Remove(T entity);
+
+        void RemoveRange(IEnumerable<T> entities);
+
+    }
 }
 
