@@ -1,11 +1,11 @@
 ﻿using System;
 namespace NLayer.Core
 {
-	public class CategoryEntity
+	public class Category : BaseEntity
 	{
-		public CategoryEntity()
-		{
-		}
+        public string? Name { get; set; }
+
+		public ICollection<Product>? Products { get; set; }
 	}
 }
 
