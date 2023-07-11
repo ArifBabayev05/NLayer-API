@@ -1,0 +1,12 @@
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.Caching/bin/Debug/net6.0/NLayer.Caching.deps.json
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.Caching/bin/Debug/net6.0/NLayer.Caching.dll
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.Caching/bin/Debug/net6.0/NLayer.Caching.pdb
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.Caching/obj/Debug/net6.0/NLayer.Caching.csproj.AssemblyReference.cache
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.Caching/obj/Debug/net6.0/NLayer.Caching.GeneratedMSBuildEditorConfig.editorconfig
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.Caching/obj/Debug/net6.0/NLayer.Caching.AssemblyInfoInputs.cache
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.Caching/obj/Debug/net6.0/NLayer.Caching.AssemblyInfo.cs
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.Caching/obj/Debug/net6.0/NLayer.Caching.csproj.CoreCompileInputs.cache
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.Caching/obj/Debug/net6.0/NLayer.Caching.dll
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.Caching/obj/Debug/net6.0/refint/NLayer.Caching.dll
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.Caching/obj/Debug/net6.0/NLayer.Caching.pdb
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.Caching/obj/Debug/net6.0/ref/NLayer.Caching.dll

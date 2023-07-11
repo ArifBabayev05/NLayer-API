@@ -1,0 +1,15 @@
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.Repository/bin/Debug/net6.0/NLayer.Repository.deps.json
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.Repository/bin/Debug/net6.0/NLayer.Repository.dll
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.Repository/bin/Debug/net6.0/NLayer.Repository.pdb
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.Repository/bin/Debug/net6.0/NLayer.Core.dll
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.Repository/bin/Debug/net6.0/NLayer.Core.pdb
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.Repository/obj/Debug/net6.0/NLayer.Repository.csproj.AssemblyReference.cache
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.Repository/obj/Debug/net6.0/NLayer.Repository.GeneratedMSBuildEditorConfig.editorconfig
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.Repository/obj/Debug/net6.0/NLayer.Repository.AssemblyInfoInputs.cache
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.Repository/obj/Debug/net6.0/NLayer.Repository.AssemblyInfo.cs
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.Repository/obj/Debug/net6.0/NLayer.Repository.csproj.CoreCompileInputs.cache
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.Repository/obj/Debug/net6.0/NLayer.Repository.csproj.CopyComplete
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.Repository/obj/Debug/net6.0/NLayer.Repository.dll
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.Repository/obj/Debug/net6.0/refint/NLayer.Repository.dll
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.Repository/obj/Debug/net6.0/NLayer.Repository.pdb
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.Repository/obj/Debug/net6.0/ref/NLayer.Repository.dll
