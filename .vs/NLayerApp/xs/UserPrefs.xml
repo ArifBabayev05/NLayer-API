@@ -1,0 +1,8 @@
+﻿<Properties StartupConfiguration="{E0BB8C52-DE53-40D2-9866-8A83CC457A8A}|Default">
+  <MonoDevelop.Ide.ItemProperties.NLayer.Repository FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.NLayer.Caching FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.NLayer.Service FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.NLayer.Core FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.NLayer.API FirstBuild="True" PreferredExecutionTarget="/Users/imac/Desktop/Google Chrome.app" />
+</Properties>
