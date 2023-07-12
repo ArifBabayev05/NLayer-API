@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq.Expressions;
+using Microsoft.EntityFrameworkCore;
 using NLayer.Core.Repositories;
 using NLayer.Core.Services;
 using NLayer.Core.UnitOfWorks;
