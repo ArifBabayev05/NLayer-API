@@ -15,8 +15,10 @@ namespace NLayer.Repository
 		{
 
 		}
+        //dotnet ef migrations add InitialCreate --project NLayer.Repository -s NLayer.API
+        //dotnet ef database update InitialCreate --project NLayer.Repository -s NLayer.API
 
-		public DbSet<Category> Categories { get; set; }
+        public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductFeature> ProductFeatures { get; set; }
 
