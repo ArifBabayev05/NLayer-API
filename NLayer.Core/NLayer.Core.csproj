@@ -10,10 +10,14 @@
     <None Remove="Repositories\" />
     <None Remove="Services\" />
     <None Remove="UnitOfWorks\" />
+    <None Remove="DTOs\" />
+    <None Remove="Model\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Repositories\" />
     <Folder Include="Services\" />
     <Folder Include="UnitOfWorks\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="Model\" />
   </ItemGroup>
 </Project>
