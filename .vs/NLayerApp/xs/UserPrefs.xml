@@ -4,39 +4,21 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="NLayer.API/Program.cs">
     <Files>
-      <File FileName="NLayer.Core/BaseEntity.cs" />
-      <File FileName="NLayer.API/Program.cs" Line="46" Column="22" />
-      <File FileName="NLayer.Core/Category.cs" />
-      <File FileName="NLayer.Core/Product.cs" />
-      <File FileName="NLayer.Core/ProductFeature.cs" />
-      <File FileName="NLayer.Core/Repositories/IGenericRepository.cs" />
-      <File FileName="NLayer.Core/Services/IService.cs" />
-      <File FileName="NLayer.Core/UnitOfWorks/IUnitOfWork.cs" />
-      <File FileName="NLayer.Repository/AppDbContext.cs" />
-      <File FileName="NLayer.Repository/Configuration/CategoryConfiguration.cs" />
-      <File FileName="NLayer.Repository/Configuration/ProductConfiguration.cs" />
-      <File FileName="NLayer.Repository/Configuration/ProductFeatureConfiguration.cs" />
-      <File FileName="NLayer.Repository/Seeds/CategorySeed.cs" />
-      <File FileName="NLayer.Repository/Seeds/ProductSeed.cs" />
-      <File FileName="NLayer.Repository/Repositories/GenericRepository.cs" />
-      <File FileName="NLayer.Repository/UnitOfWork/UnitOfWork.cs" />
-      <File FileName="NLayer.API/appsettings.json" />
+      <File FileName="NLayer.API/Program.cs" Line="25" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="NLayerApp" expanded="True">
-            <Node name="NLayer.API">
-              <Node name="Program.cs" selected="True" />
-            </Node>
-            <Node name="NLayer.Core" expanded="True" />
+          <Node name="NLayerApp">
+            <Node name="NLayer.API" expanded="True" />
+            <Node name="NLayer.Repository" selected="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

@@ -23,11 +23,10 @@ builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepositor
 
 builder.Services.AddDbContext<AppDbContext>(x =>
 {
-    
-    x.UseSqlServer(builder.Configuration.GetConnectionString("Default"), option =>
-    {
-        option.MigrationsAssembly(Assembly.GetAssembly(typeof(AppDbContext)).GetName().Name);
-    });
+	x.UseSqlServer(builder.Configuration.GetConnectionString("Default"), option =>
+	{
+		option.MigrationsAssembly(Assembly.GetAssembly(typeof(AppDbContext)).GetName().Name);
+	});
 });
 
 var app = builder.Build();
@@ -35,8 +34,8 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+	app.UseSwagger();
+	app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
