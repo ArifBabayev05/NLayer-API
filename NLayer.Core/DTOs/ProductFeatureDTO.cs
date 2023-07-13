@@ -1,7 +1,7 @@
 ﻿using System;
 namespace NLayer.Core.DTOs
 {
-	public class ProductFutureDTO 
+	public class ProductFeatureDTO 
 	{
         public int Id { get; set; }
 

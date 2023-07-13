@@ -72,3 +72,5 @@
 /Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.API/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
 /Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.API/bin/Debug/net6.0/Humanizer.dll
 /Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.API/bin/Debug/net6.0/AutoMapper.dll
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.API/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
