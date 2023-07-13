@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "f24jS14Gt4909XyYdFaIKeD/Pn4EmuVIcCnXpLYOkasc7eKysQT5y07bk3IgKUCiQtffP1EQctYUDHflLL/cow==",
+  "dgSpecHash": "9SGmKsYFavALsYovHSXv3/aF1xuf5NzL3smfwREf0fbCsu//wHwELf6FukLz0XVpXhXnyckCF9Oi0UlfvjLgqQ==",
   "success": true,
   "projectFilePath": "/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.Service/NLayer.Service.csproj",
   "expectedPackageFiles": [
-    "/Users/imac/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/imac/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/imac/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "/Users/imac/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/imac/.nuget/packages/microsoft.data.sqlclient/2.1.4/microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "/Users/imac/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.1.1/microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "/Users/imac/.nuget/packages/microsoft.entityframeworkcore/6.0.20/microsoft.entityframeworkcore.6.0.20.nupkg.sha512",
