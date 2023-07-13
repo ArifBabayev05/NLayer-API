@@ -1,11 +1,9 @@
 ﻿using System;
 namespace NLayer.Core.DTOs
 {
-	public class CategoryWithProductsDTO
+	public class CategoryWithProductsDTO : CategoryDTO
 	{
-		public CategoryWithProductsDTO()
-		{
-		}
+		public List<Product> Products { get; set; }
 	}
 }
 
