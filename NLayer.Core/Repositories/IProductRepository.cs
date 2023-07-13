@@ -1,8 +1,9 @@
 ﻿using System;
 namespace NLayer.Core.Repositories
 {
-	public interface IProductRepository
+	public interface IProductRepository: IGenericRepository<Product>
 	{
+		Task<List<Product>> GetProductsWithCategory();
 	}
 }
 
