@@ -3,7 +3,31 @@ using System.Text.Json.Serialization;
 
 namespace NLayer.Core.DTOs
 {
-	public class CustomResponseDTO<T>
+
+    public class CustomNoContentResponseDTO
+    {
+
+        [JsonIgnore]
+        public int StatusCode { get; set; }
+        public List<String> Errors { get; set; }
+
+
+        public static CustomNoContentResponseDTO Success(int statusCode)
+        {
+            return new CustomNoContentResponseDTO { StatusCode = statusCode };
+        }
+
+        public static CustomNoContentResponseDTO Fail(List<string> errors, int statusCode)
+        {
+            return new CustomNoContentResponseDTO { StatusCode = statusCode, Errors = errors };
+        }
+        public static CustomNoContentResponseDTO Fail(string error, int statusCode)
+        {
+            return new CustomNoContentResponseDTO { StatusCode = statusCode, Errors = new List<string> { error } };
+        }
+    }
+
+    public class CustomResponseDTO<T>
 	{
 		public T Data { get; set; }
 

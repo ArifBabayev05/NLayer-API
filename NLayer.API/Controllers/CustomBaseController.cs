@@ -1,10 +1,24 @@
 ﻿using System;
+using Microsoft.AspNetCore.Mvc;
+using NLayer.Core.DTOs;
+
 namespace NLayer.API.Controllers
 {
-	public class CustomBaseController
+	public class CustomBaseController : ControllerBase
 	{
-		public CustomBaseController()
+		[NonAction]
+		public IActionResult CreateActionResult<T>(CustomResponseDTO<T> response)
 		{
+			if (response.StatusCode == 204)
+				return new ObjectResult(null)
+				{
+					StatusCode = response.StatusCode
+				};
+			return new ObjectResult(response)
+			{
+				StatusCode = response.StatusCode
+			};
+			
 		}
 	}
 }
