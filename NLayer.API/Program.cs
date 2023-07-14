@@ -9,12 +9,17 @@ using NLayer.Core.Services;
 using NLayer.Service.Services;
 using Microsoft.Extensions.DependencyInjection;
 using NLayer.Service.Mapping;
+using FluentValidation.AspNetCore;
+using NLayer.Service.Validation;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+#pragma warning disable CS0618 // Type or member is obsolete
+builder.Services.AddControllers().AddFluentValidation(x=>x.RegisterValidatorsFromAssemblyContaining<ProductDTOValidation>());
+#pragma warning restore CS0618 // Type or member is obsolete
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

@@ -78,3 +78,6 @@
 /Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.API/bin/Debug/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 /Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.API/bin/Debug/net6.0/Newtonsoft.Json.dll
 /Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.API/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.API/bin/Debug/net6.0/FluentValidation.dll
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.API/bin/Debug/net6.0/FluentValidation.AspNetCore.dll
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.API/bin/Debug/net6.0/FluentValidation.DependencyInjectionExtensions.dll

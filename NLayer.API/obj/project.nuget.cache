@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "fOpH818dGOlrzNvjtbwytYmosOeYqlEGkA/HvuAEOjrxT6ZVudIa8wOGVNVzlFll8YDgPfKbtKnLI8Zda0FMvQ==",
+  "dgSpecHash": "ZHSXAnwodozsvgM8/feBIl/pq+yFk6BdMl3uSyQadopolDRxTYRxFygjA8etOCCtHZtX79T9QEVdaQn4D4DYtg==",
   "success": true,
   "projectFilePath": "/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.API/NLayer.API.csproj",
   "expectedPackageFiles": [
     "/Users/imac/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/imac/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "/Users/imac/.nuget/packages/fluentvalidation/11.5.1/fluentvalidation.11.5.1.nupkg.sha512",
+    "/Users/imac/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "/Users/imac/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.1/fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "/Users/imac/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/imac/.nuget/packages/microsoft.aspnetcore.jsonpatch/6.0.20/microsoft.aspnetcore.jsonpatch.6.0.20.nupkg.sha512",
     "/Users/imac/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/6.0.20/microsoft.aspnetcore.mvc.newtonsoftjson.6.0.20.nupkg.sha512",
