@@ -13,11 +13,13 @@
     <None Remove="Services\" />
     <None Remove="Mapping\" />
     <None Remove="Validation\" />
+    <None Remove="Exceptions\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\" />
     <Folder Include="Mapping\" />
     <Folder Include="Validation\" />
+    <Folder Include="Exceptions\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
