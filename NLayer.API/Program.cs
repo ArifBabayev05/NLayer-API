@@ -11,13 +11,15 @@ using Microsoft.Extensions.DependencyInjection;
 using NLayer.Service.Mapping;
 using FluentValidation.AspNetCore;
 using NLayer.Service.Validation;
+using NLayer.API.Filters;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 #pragma warning disable CS0618 // Type or member is obsolete
-builder.Services.AddControllers().AddFluentValidation(x=>x.RegisterValidatorsFromAssemblyContaining<ProductDTOValidation>());
+builder.Services.AddControllers(option => option.Filters.Add(new ValidateFilterAttribute()))
+				.AddFluentValidation(x=>x.RegisterValidatorsFromAssemblyContaining<ProductDTOValidation>());
 #pragma warning restore CS0618 // Type or member is obsolete
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
