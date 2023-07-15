@@ -12,6 +12,7 @@ using NLayer.Service.Mapping;
 using FluentValidation.AspNetCore;
 using NLayer.Service.Validation;
 using NLayer.API.Filters;
+using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +22,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers(option => option.Filters.Add(new ValidateFilterAttribute()))
 				.AddFluentValidation(x=>x.RegisterValidatorsFromAssemblyContaining<ProductDTOValidation>());
 #pragma warning restore CS0618 // Type or member is obsolete
+
+builder.Services.Configure<ApiBehaviorOptions>(option =>
+{
+	option.SuppressModelStateInvalidFilter = true;
+});
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
