@@ -81,3 +81,5 @@
 /Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.API/bin/Debug/net6.0/FluentValidation.dll
 /Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.API/bin/Debug/net6.0/FluentValidation.AspNetCore.dll
 /Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.API/bin/Debug/net6.0/FluentValidation.DependencyInjectionExtensions.dll
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.API/bin/Debug/net6.0/Autofac.dll
+/Users/imac/Desktop/Asp.Net-Udemy/NLayerApp/NLayer.API/bin/Debug/net6.0/Autofac.Extensions.DependencyInjection.dll

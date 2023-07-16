@@ -15,6 +15,8 @@ using NLayer.API.Filters;
 using Microsoft.AspNetCore.Mvc;
 using NLayer.API.Middlewares;
 using Autofac.Extensions.DependencyInjection;
+using Autofac;
+using NLayer.API.Modules;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -35,6 +37,9 @@ builder.Services.Configure<ApiBehaviorOptions>(option =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddScoped(typeof(NotFoundFilter<>));
+builder.Services.AddAutoMapper(typeof(MapProfile));
+
 
 builder.Services.AddControllers().AddNewtonsoftJson(options =>
     options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
@@ -49,6 +54,7 @@ builder.Services.AddDbContext<AppDbContext>(x =>
 });
 
 builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
+builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder => containerBuilder.RegisterModule(new RepoServiceModule()));
 
 var app = builder.Build();
 
