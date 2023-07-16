@@ -31,10 +31,12 @@
     <None Remove="Controllers\" />
     <None Remove="Filters\" />
     <None Remove="Middlewares\" />
+    <None Remove="Modules\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Filters\" />
     <Folder Include="Middlewares\" />
+    <Folder Include="Modules\" />
   </ItemGroup>
 </Project>

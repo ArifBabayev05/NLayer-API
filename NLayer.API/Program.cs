@@ -14,6 +14,7 @@ using NLayer.Service.Validation;
 using NLayer.API.Filters;
 using Microsoft.AspNetCore.Mvc;
 using NLayer.API.Middlewares;
+using Autofac.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -59,6 +60,8 @@ builder.Services.AddDbContext<AppDbContext>(x =>
 		option.MigrationsAssembly(Assembly.GetAssembly(typeof(AppDbContext)).GetName().Name);
 	});
 });
+
+builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
 
 var app = builder.Build();
 
