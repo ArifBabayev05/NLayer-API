@@ -22,6 +22,7 @@ var builder = WebApplication.CreateBuilder(args);
 #pragma warning disable CS0618 // Type or member is obsolete
 builder.Services.AddControllers(option => option.Filters.Add(new ValidateFilterAttribute()))
 				.AddFluentValidation(x=>x.RegisterValidatorsFromAssemblyContaining<ProductDTOValidation>());
+
 #pragma warning restore CS0618 // Type or member is obsolete
 
 builder.Services.Configure<ApiBehaviorOptions>(option =>
@@ -32,6 +33,8 @@ builder.Services.Configure<ApiBehaviorOptions>(option =>
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddScoped(typeof(NotFoundFilter<>));
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
@@ -68,7 +71,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UserCustomException();
+app.UseCustomException();
 
 app.UseAuthorization();
 

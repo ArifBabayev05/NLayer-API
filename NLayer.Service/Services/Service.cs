@@ -49,12 +49,8 @@ namespace NLayer.Service.Services
         {
 
             var hasProduct = await _repository.GetByIdAsync(id);
-
-            if(hasProduct == null)
-            {
-                throw new ClientSideExceptions($"{typeof(T).Name} not found");
-            }
             return hasProduct;
+            //return hasProduct ?? throw new NotFoundException($"{typeof(T).Name}({id}) not found");
         }
 
         public async Task RemoveAsync(T entity)

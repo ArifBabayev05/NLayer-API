@@ -8,7 +8,7 @@ namespace NLayer.API.Middlewares
 {
 	public static class CustomExceptionHandler
 	{
-		public static void UserCustomException(this IApplicationBuilder app)
+		public static void UseCustomException(this IApplicationBuilder app)
 		{
 			app.UseExceptionHandler(config =>
 			{

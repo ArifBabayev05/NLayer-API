@@ -36,6 +36,7 @@ namespace NLayer.API.Controllers
             return CreateActionResult(CustomResponseDTO<List<ProductDTO>>.Success(200, productsDTO));
         }
 
+        [ServiceFilter(typeof(NotFoundFilter<Product>))]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
